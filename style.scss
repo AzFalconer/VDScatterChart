@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Orbitron|Righteous|Exo|Mogra|Tangerine|Acme|OpenSans');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+$pColor: white;
+$pFont: Acme, serif;
+* {box-sizing: border-box;}
+a {text-decoration: none; color: white;}
+i {color: white;}
+p {font-size: 30; color: "black";}
+body {background-color: #515A5A; min-width: 800px;}
+//.chartWrap {background-image: url("https://redtailbooks.com/codeCamp/images/bikeLeader.jpg"); background-repeat: no-repeat; background-size: 100%;}
+.chartTitle {font-family: $pFont;}
+svg {display: block; margin: 0 auto; background-image: url("https://redtailbooks.com/codeCamp/images/bikeLeader4.jpg"); background-repeat: no-repeat; background-size: 100%;} //background-color: white; opacity: 0.8; border-radius: 10px;}
+.axis path, .axis line {fill: none; stroke: black; shape-rendering: crispEdges;}
+.axis text {font-family: sans-serif; font-size: 11px;}
+.footer {position: fixed; bottom: 5px; width: 100%; height: auto; margin-top: 40px; text-align: center; font-family: $pFont; font-size: 1vw;}
+div.tooltip {margin: 0 auto; position: relative; text-align: center; width: 300px; padding: 5px; font-size: 12px; background-color: lightsteelblue;	border: 2px solid black; border-radius: 8px; box-shadow: 10px 10px 5px #888888;}
